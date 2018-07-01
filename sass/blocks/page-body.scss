@@ -1,0 +1,10 @@
+$main-color: #65B4D4;
+@mixin main-font {
+	font-family: 'Roboto', Calibri, Arial, sans-serif;
+	color: white;
+}
+
+.page-body {
+	width: 100%;
+	@include main-font;
+}

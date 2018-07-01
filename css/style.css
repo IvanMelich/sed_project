@@ -1,0 +1,14 @@
+@import url(global/normolize.css);
+@import url(global/fonts.css);
+@import url(blocks/mobile-menu.css);
+@import url(blocks/page-body.css);
+@import url(blocks/page-header.css);
+@import url(blocks/intro.css);
+@import url(blocks/search.css);
+@import url(blocks/map.css);
+@import url(blocks/footer.css);
+@import url(blocks/forma/header-forma.css);
+@import url(blocks/forma/main-forma.css);
+@import url(blocks/gallery/gallery-page.css);
+
+/*# sourceMappingURL=style.css.map */

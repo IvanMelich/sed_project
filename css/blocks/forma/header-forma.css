@@ -1,0 +1,188 @@
+@media (min-width: 300px) and (max-width: 767px) {
+  .navigation-default {
+    position: relative;
+    min-height: 56px;
+    width: 100%; } }
+@media (min-width: 300px) and (max-width: 768px) {
+  .page-header {
+    width: 320px;
+    margin: 0 auto; }
+
+  .navigation-default__logo {
+    position: absolute;
+    top: 0;
+    left: 34%;
+    z-index: 100; }
+
+  .navigation-default__burger {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    cursor: pointer; }
+
+  .main-baner--forma-page {
+    position: relative;
+    min-height: 158px;
+    width: 320px;
+    background-color: #65B4D4;
+    background-image: url(../../../img/img-mobile/bg-form-mobile.png); }
+
+  .main-baner__decoration {
+    position: absolute;
+    bottom: 0px; } }
+@media (min-width: 768px) and (max-width: 1200px) {
+  .page-header {
+    width: 768px;
+    margin: 0 auto; }
+
+  .cros-menu,
+  .navigation-default__burger {
+    display: none; }
+
+  .page-header {
+    position: relative; }
+
+  .navigation {
+    width: 768px;
+    min-height: 56px;
+    background-color: white;
+    margin: 0 auto;
+    font-family: 'Roboto', Calibri, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold; }
+
+  .navigation-box {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center; }
+
+  .navigation__item {
+    height: 56px;
+    margin-left: 25px;
+    margin-right: 25px; }
+
+  .navigation__item--addMargin {
+    margin-right: 175px; }
+
+  .navigation__link {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 20px; }
+    .navigation__link:hover {
+      color: #81B3D2; }
+    .navigation__link:active {
+      color: #B2B2B2; }
+
+  .navigation__link--active {
+    color: #766357; }
+    .navigation__link--active:hover {
+      color: #604E43; }
+    .navigation__link--active:active {
+      color: #D6D0CC; }
+
+  .navigation-default__logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -70px;
+    z-index: 100; }
+
+  .main-baner--forma-page {
+    position: relative;
+    min-height: 346px;
+    width: 768px;
+    background-color: #65B4D4;
+    background-image: url(../../../img/img-tablet/bg-forma-tablet.png); }
+
+  .main-baner__decoration {
+    position: absolute;
+    bottom: 0px; } }
+@media (min-width: 1200px) {
+  .page-body {
+    width: 100%;
+    background-color: #F2F2F2; }
+
+  .page-header {
+    width: 1200px;
+    margin: 0 auto; }
+
+  .cros-menu,
+  .navigation-default__burger {
+    display: none; }
+
+  .page-header {
+    position: relative; }
+
+  .navigation {
+    width: 1200px;
+    min-height: 56px;
+    background-color: white;
+    margin: 0 auto;
+    font-family: 'Roboto', Calibri, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold; }
+
+  .navigation-box {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center; }
+
+  .navigation__item {
+    height: 56px;
+    margin-left: 59px;
+    margin-right: 59px; }
+
+  .navigation__item--addMargin {
+    margin-right: 400px; }
+
+  .navigation__link {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 20px; }
+    .navigation__link:hover {
+      color: #81B3D2; }
+    .navigation__link:active {
+      color: #B2B2B2; }
+
+  .navigation__link--active {
+    color: #766357; }
+    .navigation__link--active:hover {
+      color: #604E43; }
+    .navigation__link--active:active {
+      color: #D6D0CC; }
+
+  .navigation-default__logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -95px;
+    z-index: 100; }
+
+  .main-baner--forma-page {
+    position: relative;
+    min-height: 357px;
+    width: 1200px;
+    background-color: #65B4D4;
+    background-image: url(../../../img/img-desktop/bg-form-desktop.png); }
+
+  .main-baner__decoration {
+    position: absolute;
+    bottom: 0px; } }
+
+/*# sourceMappingURL=header-forma.css.map */

@@ -1,0 +1,193 @@
+
+$main-color: #65B4D4;
+$hover-color: #669EC0;
+$active-color:#5496BD;
+
+@mixin main-font {
+	font-family: 'Roboto', Calibri, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+
+	.search-page {
+		
+		width: 320px;
+		min-height: 287px;
+		margin: 0 auto;
+	}
+
+	.search-page__title {
+
+		margin: 30px 0;
+		padding: 0;
+		font-size: 20px;
+		text-transform: uppercase;
+		text-align: center;
+		color: black;
+	}
+
+	.search-page__text {
+		
+		margin: 0 auto;
+		margin-bottom: 40px;
+		font-size: 14px;
+		color: #2F2F2F;
+		text-transform: uppercase;
+		text-align: center;
+		line-height: 24px;
+		width: 90%;
+	}
+
+	.search-page__btn {
+		
+		@include main-font;
+		display: block;
+		width: 280px;
+		height: 60px;
+		background-color: $main-color;
+		color: white;
+		margin: 0 auto;
+		outline: none;
+		border: none;
+		cursor: pointer;
+		text-transform: uppercase;
+		font-size: 20px;
+
+		&:hover {
+			background-color: $hover-color;
+		}
+
+		&:active {
+			background-color: $active-color;
+			color: #88B6D1;
+		}
+
+	}
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+	.search-page {
+		
+		width: 768px;
+		min-height: 318px;
+		margin: 0 auto;
+	}
+
+	.search-page__title {
+
+		margin: 60px 0 60px 0;
+		padding: 0;
+		font-size: 32px;
+		text-transform: uppercase;
+		text-align: center;
+		color: black;
+	}
+
+	.search-page__text {
+		
+		margin: 0 auto;
+		margin-bottom: 45px;
+		font-size: 16px;
+		color: #2F2F2F;
+		text-transform: uppercase;
+		text-align: center;
+		line-height: 24px;
+		width: 64%;
+	}
+
+	.search-page__btn {
+		
+		@include main-font;
+		display: block;
+		width: 460px;
+		height: 60px;
+		background-color: $main-color;
+		color: white;
+		margin: 0 auto;
+		outline: none;
+		border: none;
+		cursor: pointer;
+		text-transform: uppercase;
+		font-size: 20px;
+
+		&:hover {
+			background-color: $hover-color;
+		}
+
+		&:active {
+			background-color: $active-color;
+			color: #88B6D1;
+		}
+
+	}
+
+}
+
+
+@media (min-width: 1200px) {
+	
+	.search-page {
+		
+		width: 1200px;
+		min-height: 330px;
+		margin: 0 auto;
+		background-color: white;
+	}
+
+	.search-page__title {
+
+		margin: 0 0 30px 0;
+		padding: 0;
+		padding-top: 60px;
+		font-size: 32px;
+		text-transform: uppercase;
+		text-align: center;
+		color: black;
+	}
+
+	.search-page__text {
+		
+		margin: 0 auto;
+		margin-bottom: 30px;
+		font-size: 16px;
+		color: #2F2F2F;
+		text-transform: uppercase;
+		text-align: center;
+		line-height: 24px;
+		width: 41%;
+	}
+
+	.search-page__btn {
+		
+		@include main-font;
+		display: block;
+		width: 460px;
+		height: 60px;
+		background-color: $main-color;
+		color: white;
+		margin: 0 auto;
+		outline: none;
+		border: none;
+		cursor: pointer;
+		text-transform: uppercase;
+		font-size: 20px;
+
+		&:hover {
+			background-color: $hover-color;
+		}
+
+		&:active {
+			background-color: $active-color;
+			color: #88B6D1;
+		}
+
+	}
+
+}

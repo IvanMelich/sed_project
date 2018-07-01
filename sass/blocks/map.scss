@@ -1,0 +1,47 @@
+$main-color: #65B4D4;
+$hover-color: #669EC0;
+$active-color:#5496BD;
+
+
+.map {
+
+		height: 350px;
+		margin: 0 auto;
+		background-color: #C2E0A9;
+}
+
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 768px) {
+	
+	.map {
+
+		width: 320px;
+		
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+	
+	.map {
+		
+		width: 768px;
+		
+	}
+
+}
+
+
+@media (min-width: 1200px) {
+	
+	.map {
+		
+		width: 1200px;
+		
+	}
+
+}

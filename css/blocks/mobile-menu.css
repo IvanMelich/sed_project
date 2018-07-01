@@ -1,0 +1,82 @@
+@media (min-width: 300px) and (max-width: 767px) {
+  .navigation {
+    min-height: 223px;
+    width: 320px;
+    background-color: #65B4D4;
+    font-family: 'Roboto', Calibri, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white; }
+
+  .menu-default {
+    display: none; }
+
+  /*class for work with javascript*/
+  .navigation-box {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-shadow: inset 0px -3px 6px rgba(0, 0, 0, 0.3); }
+
+  .navigation__item {
+    width: 100%;
+    height: 55px;
+    border-top: solid 1px #87C3DD;
+    border-bottom: solid 1px #4F90AA; }
+
+  .navigation__item--position {
+    position: relative; }
+
+  .cros-menu {
+    display: block;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background-color: #65B4D4;
+    outline: none;
+    border: none; }
+
+  .cros-menu::before {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    height: 25px;
+    width: 4px;
+    background-color: white;
+    box-shadow: none; }
+
+  .cros-menu::after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    height: 25px;
+    width: 4px;
+    background-color: white; }
+
+  .cros-menu::before {
+    transform: rotate(45deg); }
+
+  .cros-menu::after {
+    transform: rotate(-45deg); }
+
+  .navigation__link {
+    font-family: 'Roboto', Calibri, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    width: 320px;
+    height: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px; }
+    .navigation__link:hover {
+      color: #669EC0; } }
+
+/*# sourceMappingURL=mobile-menu.css.map */
